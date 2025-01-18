@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"], // Definindo a Montserrat como fonte padrão
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

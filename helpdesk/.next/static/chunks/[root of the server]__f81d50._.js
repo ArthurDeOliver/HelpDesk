@@ -7081,7 +7081,7 @@ class Router {
                     });
                     return new Promise(()=>{});
                 }
-                const routerFilterSValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":2,"errorRate":0.0001,"numBits":39,"numHashes":14,"bitArray":[0,1,0,0,0,1,1,0,0,0,0,1,1,1,0,0,0,1,1,0,1,1,1,1,0,0,0,1,1,1,0,0,0,1,0,1,1,0,1]}'));
+                const routerFilterSValue = ("TURBOPACK compile-time value", JSON.parse('{"numItems":11,"errorRate":0.0001,"numBits":211,"numHashes":14,"bitArray":[0,0,1,0,0,1,1,0,1,0,1,1,1,0,1,0,1,1,1,1,0,1,1,1,1,1,1,0,0,1,1,1,1,0,0,1,0,0,0,0,1,1,1,1,1,1,1,0,0,1,0,1,0,0,1,1,1,1,1,1,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,1,0,1,1,1,1,1,1,0,0,0,1,1,0,1,1,1,1,0,0,1,0,0,0,0,0,1,1,1,0,1,1,0,1,0,1,1,1,0,0,0,1,0,0,1,1,1,0,0,0,0,1,1,0,1,0,1,1,0,0,1,1,1,0,0,0,1,0,0,0,1,1,1,0,0,1,0,1,0,1,0,0,0,0,0,1,0,1,1,0,0,0,1,0,1,0,0,0,1,1,1,0,0,0,1,1,1,0,1,0,0,1,1,1,0,0,0,0,1,0,0]}'));
                 if (!staticFilterData && routerFilterSValue) {
                     staticFilterData = routerFilterSValue ? routerFilterSValue : undefined;
                 }
@@ -19069,7 +19069,9 @@ function doRender(input) {
                 callback,
                 onRootCommit
             ],
-            children: ("TURBOPACK compile-time falsy", 0) ? ("TURBOPACK unreachable", undefined) : elem
+            children: ("TURBOPACK compile-time truthy", 1) ? /*#__PURE__*/ (0, _jsxruntime.jsx)(_react.default.StrictMode, {
+                children: elem
+            }) : ("TURBOPACK unreachable", undefined)
         }));
     return renderPromise;
 }
