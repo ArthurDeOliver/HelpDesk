@@ -6,6 +6,10 @@ O **helpDesk** é uma aplicação para gerenciamento de chamados de suporte. Atr
 
 Este projeto foi desenvolvido utilizando **Node.js** para o backend e **Prisma** para a comunicação com o banco de dados MySQL.
 
+## Observação
+
+Coloque suas credenciais do mysql no arquivo **.env** que está na raíz do projeto
+
 ## Tecnologias Utilizadas
 
 - **Node.js** - Para o desenvolvimento do backend.
