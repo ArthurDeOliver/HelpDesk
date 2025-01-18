@@ -35,6 +35,7 @@ A arquitetura do projeto segue o padrão **MVC** (Model-View-Controller), onde:
 ### Pré-requisitos
 
 - Node.js instalado na sua máquina.
+- Next.js devidamente instalado.
 - MySQL instalado e rodando.
 - Prisma instalado (via `npm install prisma`).
 
