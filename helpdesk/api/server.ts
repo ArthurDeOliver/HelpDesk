@@ -7,7 +7,7 @@ const PORT = 3001;
 
 app.use(cors()); //permite que o servidor em portas diferentes se comunique com o frontend em localhost
 app.use(express.json());
-app.use("/tickets", ticketRoutes);
+app.use("/", ticketRoutes);
 
 app.listen(PORT, () => {
   console.log(`server is running on http://localhost:${PORT}`);
